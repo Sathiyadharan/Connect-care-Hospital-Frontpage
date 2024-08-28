@@ -1,0 +1,29 @@
+
+<body>
+
+  <h4 style="color: white;">Login For Your Appointments</h4>
+
+<div class="container">
+  <input type="checkbox" id="check">
+  <div class="login form">
+    <header>Login</header>
+    <form action="#">
+      <label for="email">Email</label>
+      <input type="Email" placeholder="Enter your email" name="email"     [(ngModel)]="email">
+      <label for="password">Password</label>
+      <input type="Password" placeholder="Enter your password" name="password"      [(ngModel)]="password">
+      <a href="#">Forgot password?</a>
+      <input (click)="onLogin()" type="button" class="button" value="Login">
+      
+
+    </form>
+   
+    <div class="signup">
+      <h3>Don't have an account?</h3>
+        <a [routerLink]="['/sign-up']">Signup</a>
+      
+    </div>
+    
+  </div>
+</div>
+</body>

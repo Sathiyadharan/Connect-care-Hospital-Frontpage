@@ -1,0 +1,201 @@
+/* styles.css */
+
+/* Navbar styles */
+.navbar {
+  background-color: #3983fe; /* Navbar background color */
+}
+
+.navbar-brand {
+  font-size: 24px; /* Brand name font size */
+  font-weight: bold; /* Brand name font weight */
+  transition: color 0.3s ease; /* Smooth transition for color change */
+}
+
+.navbar-brand span {
+  color: #fff; /* Brand name color */
+}
+
+.navbar-nav .nav-item {
+  margin-right: 15px; /* Spacing between nav items */
+}
+
+.navbar-nav .nav-link {
+  color: #fff; /* Nav link color */
+  font-size: 18px; /* Nav link font size */
+  transition: color 0.3s ease; /* Smooth transition for color change */
+}
+
+.navbar-nav .nav-link:hover {
+  color: #fccb06; /* Change color on hover */
+  transform: scale(1.05); /* Scale up slightly on hover */
+}
+
+.navbar-toggler {
+  border: none; /* Remove border from toggler */
+}
+
+/* Navbar toggle icon color */
+.navbar-toggler .oi-menu {
+  color: #fff;
+}
+.btn {
+  border-radius: 12px;
+  background-color: white;
+  color: black;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  left: 8px; /* Smooth transition for background color and text color change */
+}
+
+
+.btn:hover {
+  background-color: #3983fe; /* Change background color on hover */
+  color: white; /* Change text color on hover */
+}
+
+
+
+/* styles.css */
+/* styles.css */
+
+/* styles.css */
+
+.container {
+  display: flex;
+  justify-content: space-between; /* Distribute items evenly, leaving space in between */
+  align-items: center; /* Align items vertically */
+  
+}
+/* styles.css */
+
+.about-inner {
+  display: flex; /* Use flexbox */
+  justify-content: space-between; /* Space between items */
+}
+
+.about-left {
+  width: 50%; /* Set width to 50% */
+}
+
+.about-right {
+  width: 50%; /* Set width to 50% */
+}
+
+.about-left,
+.about-right {
+  padding: 30px; /* Add padding for spacing */
+}
+
+
+
+.about-left h2 {
+  font-size: 2px; /* Adjust heading font size */
+}
+
+
+.about-right img{
+  width: 100%;
+    background-color: #3983fe;
+    max-width: 537px;
+    position: relative;
+}
+.section-head {
+  width: 100%;
+  margin-bottom: 100%;
+
+}
+.iim{
+  width: 50%;
+  height: 50%;
+}
+.about{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hr1{
+  border: 2px solid #0050d5;
+  width: 50%;
+}
+.hr2{
+  border: 2px solid #81fe39;
+  width: 70%;
+}
+.hr3{
+  border: 1px solid rgb(94, 241, 57);
+  width:80%;
+}
+/* styles.css */
+
+/* styles.css */
+
+#banner-one {
+  position: relative;
+  height: 50vh; /* Set section height to 100% of the viewport height */
+}
+
+#banner-one img {
+  width: 100%; /* Set image width to fill the entire section */
+  height: 100%; /* Set image height to fill the entire section */
+  object-fit: cover; /* Cover the entire area */
+}
+.doctor{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.top{
+  border: 1px solid #0050d5;
+  width: 70%;
+}
+.welcome
+{
+  color: #0050d5;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-size: 26px;
+}
+
+.pannel{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.hr-pannel{
+ border: 1px solid #0050d5;
+ width: 90%;
+
+}
+.hr-pannel2{
+  border: 1px solid greenyellow;
+  width: 80%;
+}
+.log{
+  height: 180px;
+  width: 250px;
+}
+.lool{
+  height: 120px;
+  width: 250px;
+}
+.form-element{
+  padding-bottom: 15px;
+  margin: 12px;
+}
+.contact-head{
+  color: white;
+}
+#cont{
+  background:#0050d5;
+}
+#box{
+  border: 2px solid white;
+  box-shadow: 2px 2px 2px white;
+  margin-top: 10px;
+}
+.conhead{
+  margin-left: 50%;
+  
+}
+
